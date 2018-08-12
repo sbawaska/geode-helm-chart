@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  geode:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-08-12T16:39:43.423295982-07:00
+    description: Apache Geode is an In Memory Data Grid
+    digest: 35424a324b6acb4e0bd5a080ab2dd8cd17a6ee900d1521ce570e4673bc9fe1f8
+    icon: http://geode.apache.org/img/apache_geode_logo.png
+    maintainers:
+    - email: sbawaskar@apache.org
+      name: sbawaska
+    name: geode
+    sources:
+    - https://github.com/apache/geode
+    urls:
+    - https://sbawaska.github.io/geode-helm-chart/geode-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-08-12T16:39:43.422778867-07:00
