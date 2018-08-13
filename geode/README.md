@@ -5,7 +5,9 @@ A Chart to install Apache Geode clusters in kubernetes
 To install the Geode in your Kubernetes cluster:
 
 ```bash
-helm install incubator/geode
+$ helm repo add geode https://sbawaska.github.io/geode-helm-chart
+"geode" has been added to your repositories
+$ helm install geode/geode --name=my-geode-cluster
 ```
 
 ## Dashboard
