@@ -6,7 +6,7 @@ To install the Geode in your Kubernetes cluster:
 
 ```bash
 $ helm repo add geode-repo https://sbawaska.github.io/geode-helm-chart
-"geode" has been added to your repositories
+"geode-repo" has been added to your repositories
 $ helm install geode-repo/geode --name=my-geode-cluster
 ```
 
