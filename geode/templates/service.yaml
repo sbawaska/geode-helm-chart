@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ template "geode.name" . }}
+  name: {{ template "geode.fullname" . }}
   labels:
     app: {{ template "geode.name" . }}
     chart: {{ template "geode.chart" . }}
